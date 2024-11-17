@@ -3,6 +3,43 @@
 .root {
     width: 100%;
     height: 100%;
+    .center{
+        background-image: url('file://{images}/legin_treasure.png');
+        background-size: 100% 100%;
+        width: 48px;
+        height: 48px;
+        align: left center;
+        border-radius: 10%;
+        margin-bottom: 500px;
+        margin-left: 20px;
+    }
+    .base{
+        width: 270px;
+        height: 300px;
+        align: left center;
+        background-color: black;
+        margin-left: 10px;
+        border-radius: 2%;
+        opacity-brush: gradient( linear, 0% 0%, 0% 100%, from( rgb(216, 216, 216) ), to( #ffffff00 ) );
+        .button_base{
+            flow-children: right-wrap;
+            TextButton{
+                margin-top: 10px;
+                margin-left: 10px;
+                height: 34px;
+                width: 120px;
+            }
+        }
+        .top_show{
+            width: 100px;
+            height: 5px;
+            background-color: gray;
+            opacity-brush: gradient( linear, 0% 0%, 0% 100%, from( rgb(199, 199, 199) ), to( #928f8f00 ) );
+            horizontal-align: center;
+            border-bottom-left-radius: 4%;
+            border-bottom-right-radius: 4%;
+        }
+    }
 }
 
 @keyframes my_test {

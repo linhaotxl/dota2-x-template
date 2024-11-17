@@ -39,4 +39,4 @@ game/scripts/src/json
 content/panorama/src/shared
 
 #ignore local test scripts
-scripts/.test
+

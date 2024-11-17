@@ -5,15 +5,118 @@
 // Template: https://github.com/XavierCHN/x-template
 "XLSXContent"
 {
-	"item_kv_generator_test1" {
+	"item_1" {
 		"BaseClass" "item_lua"
 		"AbilityValues" {
-			"damage" "0.1 0.2 0.3 0.4"
-			"unknown_var_0" "1 1 2 3 4"
-			"unknown_var_1" "1000 2000 30000 40000"
 		}
-		"MaxLevel" "2"
-		"AbilityCooldown" "1 2 3 4"
-		"AbilityManaCost" "1 1 1 1"
+		"ItemSellable" "0"
+		"ItemKillable" "0"
+		"ItemShareability" "1"
+		"ItemPurchasable" "0"
+		"ItemPermanent" "1"
+		"ItemInitialCharges" "0"
+		"ItemStackable" "0"
+		"Model" "models/props_gameplay/treasure_chest_gold.vmdl"
+		"MaxLevel" "1"
+		"AbilityCooldown" "0"
+		"AbilityManaCost" "0"
+		"AbilityTextureName" "item_penta_edged_sword"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"quality" "1"
+	}
+	"item_2" {
+		"BaseClass" "item_lua"
+		"AbilityValues" {
+		}
+		"ItemSellable" "0"
+		"ItemKillable" "0"
+		"ItemShareability" "1"
+		"ItemPurchasable" "0"
+		"ItemPermanent" "1"
+		"ItemInitialCharges" "0"
+		"ItemStackable" "0"
+		"Model" "models/props_gameplay/treasure_chest_gold.vmdl"
+		"MaxLevel" "1"
+		"AbilityCooldown" "0"
+		"AbilityManaCost" "0"
+		"AbilityTextureName" "item_assault"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"quality" "1"
+	}
+	"item_3" {
+		"BaseClass" "item_lua"
+		"AbilityValues" {
+		}
+		"ItemSellable" "0"
+		"ItemKillable" "0"
+		"ItemShareability" "1"
+		"ItemPurchasable" "0"
+		"ItemPermanent" "1"
+		"ItemInitialCharges" "0"
+		"ItemStackable" "0"
+		"Model" "models/props_gameplay/treasure_chest_gold.vmdl"
+		"MaxLevel" "1"
+		"AbilityCooldown" "0"
+		"AbilityManaCost" "0"
+		"AbilityTextureName" "item_bloodthorn"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"quality" "1"
+	}
+	"item_4" {
+		"BaseClass" "item_lua"
+		"AbilityValues" {
+		}
+		"ItemSellable" "0"
+		"ItemKillable" "0"
+		"ItemShareability" "1"
+		"ItemPurchasable" "0"
+		"ItemPermanent" "1"
+		"ItemInitialCharges" "0"
+		"ItemStackable" "0"
+		"Model" "models/props_gameplay/treasure_chest_gold.vmdl"
+		"MaxLevel" "1"
+		"AbilityCooldown" "0"
+		"AbilityManaCost" "0"
+		"AbilityTextureName" "item_cyclone_wr_arcana_alt"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"quality" "1"
+	}
+	"item_5" {
+		"BaseClass" "item_lua"
+		"AbilityValues" {
+		}
+		"ItemSellable" "0"
+		"ItemKillable" "0"
+		"ItemShareability" "1"
+		"ItemPurchasable" "0"
+		"ItemPermanent" "1"
+		"ItemInitialCharges" "0"
+		"ItemStackable" "0"
+		"Model" "models/props_gameplay/treasure_chest_gold.vmdl"
+		"MaxLevel" "1"
+		"AbilityCooldown" "0"
+		"AbilityManaCost" "0"
+		"AbilityTextureName" "item_dragon_lance"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"quality" "1"
+	}
+	"item_6" {
+		"BaseClass" "item_lua"
+		"AbilityValues" {
+		}
+		"ItemSellable" "0"
+		"ItemKillable" "0"
+		"ItemShareability" "1"
+		"ItemPurchasable" "0"
+		"ItemPermanent" "1"
+		"ItemInitialCharges" "0"
+		"ItemStackable" "0"
+		"Model" "models/props_gameplay/treasure_chest_gold.vmdl"
+		"MaxLevel" "1"
+		"AbilityCooldown" "0"
+		"AbilityManaCost" "0"
+		"AbilityTextureName" "item_hurricane_pike_drow_arcana_alt1"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"quality" "1"
 	}
 }

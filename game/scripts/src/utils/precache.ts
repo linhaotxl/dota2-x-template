@@ -7,6 +7,7 @@ export default function Precache(context: CScriptPrecacheContext) {
             // '***.vpcf',
             // 'soundevents/game_sounds_heroes/game_sounds_queenofpain.vsndevts',
             // '***.vmdl',
+            'particles/units/heroes/hero_beastmaster/beastmaster_wildaxe.vpcf',
         ],
         context
     );

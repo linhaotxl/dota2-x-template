@@ -1,0 +1,9 @@
+.image-precache {
+	background-image: url("file://{images}/back.png");
+	background-image: url("file://{images}/box.png");
+	background-image: url("file://{images}/caijiqi2.png");
+	background-image: url("file://{images}/legin_treasure.png");
+	background-image: url("file://{images}/permit_special.png");
+	background-image: url("file://{images}/seven.png");
+	background-image: url("file://{images}/yanli.png");
+}

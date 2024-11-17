@@ -5,23 +5,20 @@
 // Template: https://github.com/XavierCHN/x-template
 "XLSXContent"
 {
-	"ability_test" {
+	"test_1" {
 		"BaseClass" "ability_lua"
+		"ScriptFile" "abilitys/test/test_1"
+		"MaxLevel" "1"
+		"AbilityCooldown" "0"
+		"AbilityManaCost" "1"
+		"AbilityTextureName" "axe_counter_helix"
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType" "SELL_IMMUNITY_ENEMIES_YES"
+		"AbilityCastPoint" "0"
 		"AbilityValues" {
-			"damage" "0.1 0.2 0.3 0.4"
-			"radius" "1 2 3 4"
-			"test" "1"
-			"another_test" "10.5 2.3 3.3 1.1"
-			"target_damage" {
-"value" "110 120 130"
-"special_bonus_unique_abaddon_2" "+30"
-}
 		}
-		"MaxLevel" "2"
-		"AbilityCooldown" "1 2 3 4"
-		"AbilityManaCost" "1 1 1 1"
-		"PlainKV" {
-"test" "this is test of plain kv"
-}
+		"RequiredLevel" "0"
 	}
 }

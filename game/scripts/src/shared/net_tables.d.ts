@@ -17,4 +17,9 @@ declare interface CustomNetTableDeclarations {
         key_1: number;
         key_2: string;
     };
+    back_pack: {
+        [playerID: string]: {
+            [key: string]: any;
+        };
+    };
 }
